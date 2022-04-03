@@ -3,14 +3,13 @@ package classroom;
 public class Asignatura {
 
     String nombre;
-    String n = nombre;
     int codigoInterno;
     int codigoExterno;
     Tipo tipo;
 
     Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
-        this(0);
+ 
     }
 
     Asignatura(int codigoInterno,Tipo tipo) {
